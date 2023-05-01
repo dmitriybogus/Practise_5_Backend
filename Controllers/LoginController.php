@@ -23,7 +23,7 @@ class LoginController {
             // 3.raw. Check that user has already existed
             $pdo = new \PDO("mysql:dbname={$aConfig['name']};host={$aConfig['host']};charset={$aConfig['charset']}", $aConfig['user']);
 
-            $pdoStatement = $pdo->query("SELECT * FROM users WHERE `email`='".$_POST['email'] . "' AND `password`=" . "'". sha1($_POST['password']). "'");  // sha1 is more prefer than md5
+            $pdoStatement = $pdo->query("SELECT * FROM users WHERE `email`='".$_POST['email'] . "' AND `password`=" . "'". sha1($_POST['password']). "'");
             $user = $pdoStatement->fetch(\PDO::FETCH_ASSOC);
 
             if (!empty($user)) {

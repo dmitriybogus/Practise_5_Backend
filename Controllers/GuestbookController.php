@@ -8,7 +8,7 @@ class GuestbookController {
 
     public function execute() {
 
-        $aConfig = require_once 'C:\Users\DoozzY\PhpstormProjects\Practise_5_backend\guestbookOopMvcBase\config.php';
+        $aConfig = require_once 'config.php';
 
         // TODO 2: ROUTING
 

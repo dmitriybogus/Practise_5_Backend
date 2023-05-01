@@ -9,6 +9,8 @@ session_start();
 // 2. use
 
 // 3. require_once
+//require_once 'vendor/autoload.php';
+
 require_once 'Controllers/HomeController.php';
 require_once 'Controllers/RegisterController.php';
 require_once 'Controllers/LoginController.php';
