@@ -1,0 +1,17 @@
+{
+    "name": "doozzy/guestbook-oop-mvc-base",
+    "autoload": {
+        "psr-4": {
+            "Doozzy\\GuestbookOopMvcBase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dmytro.bogyslavsjkyy",
+            "email": "d.a.boguslavsjkyy@student.khai.edu"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.2"
+    }
+}
